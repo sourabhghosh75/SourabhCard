@@ -12,9 +12,33 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
-        Text("Sourabh Ghosh")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                .bold()
+            VStack {
+                Image("sourabh")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 150, alignment: .center)
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .overlay(
+                        Circle().stroke(Color.white , lineWidth: 5)
+                    )
+                Text("Sourabh Ghosh")
+                    .font(Font.custom("Pacifico-Regular", size: 40))
+                    .foregroundColor(.white)
+                    .bold()
+                Text("iOS Developer")
+                    .font(.system(size: 25))
+                    .foregroundColor(.white)
+                
+                Divider()
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .frame( height: 50)
+                    .foregroundColor(.white)
+                    .overlay(Text("+919831413990"))
+               
+
+                
+            }
 
         }
     }

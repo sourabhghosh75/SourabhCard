@@ -11,6 +11,7 @@
 		F540A3E5278D675C003EDABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F540A3E4278D675C003EDABD /* ContentView.swift */; };
 		F540A3E7278D675E003EDABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F540A3E6278D675E003EDABD /* Assets.xcassets */; };
 		F540A3EA278D675E003EDABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F540A3E9278D675E003EDABD /* Preview Assets.xcassets */; };
+		F540A3F2278D76A0003EDABD /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F540A3F1278D76A0003EDABD /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F540A3E4278D675C003EDABD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F540A3E6278D675E003EDABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F540A3E9278D675E003EDABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F540A3F1278D76A0003EDABD /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		F540A3F3278D77E0003EDABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		F540A3E1278D675C003EDABD /* SourabhCard */ = {
 			isa = PBXGroup;
 			children = (
+				F540A3F3278D77E0003EDABD /* Info.plist */,
+				F540A3F0278D768B003EDABD /* Fonts */,
 				F540A3E2278D675C003EDABD /* SourabhCardApp.swift */,
 				F540A3E4278D675C003EDABD /* ContentView.swift */,
 				F540A3E6278D675E003EDABD /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				F540A3E9278D675E003EDABD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F540A3F0278D768B003EDABD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F540A3F1278D76A0003EDABD /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F540A3F2278D76A0003EDABD /* Pacifico-Regular.ttf in Resources */,
 				F540A3EA278D675E003EDABD /* Preview Assets.xcassets in Resources */,
 				F540A3E7278D675E003EDABD /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +286,8 @@
 				DEVELOPMENT_TEAM = 9TUE96Q32B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SourabhCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +317,8 @@
 				DEVELOPMENT_TEAM = 9TUE96Q32B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SourabhCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
