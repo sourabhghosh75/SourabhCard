@@ -31,10 +31,10 @@ struct ContentView: View {
                 
                 Divider()
                 
-                RoundedRectangle(cornerRadius: 25)
-                    .frame( height: 50)
-                    .foregroundColor(.white)
-                    .overlay(Text("+919831413990"))
+                InfoView(text: "+91-9831413990", imageName:  "phone.fill" )
+                InfoView(text: "sourabh.ghosh75@gmail.com", imageName:  "envelope.fill" )
+                
+                
                
 
                 
@@ -49,3 +49,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
